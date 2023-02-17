@@ -136,7 +136,27 @@ img {
 
 @media screen and (max-width: 480px) {
 
-
-    
-
+    body {
+        background-color: black;
+    }
+    .row {
+        display: block;
+    }
+    .col {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .lessons {
+        background-color: #232946;
+        padding-bottom: 48px;
+    }
+    .site-header {
+        background-color: #232946;
+        margin: 0;
+        padding-top: 48px;
+    }
+    .text-center {
+        margin: 0;
+        padding-top: 48px;        
+    }
 }
